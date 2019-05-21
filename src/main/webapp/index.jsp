@@ -1,1 +1,1 @@
-<% response.sendRedirect("welcome"); %> 
+<% response.sendRedirect("welcome1"); %> 

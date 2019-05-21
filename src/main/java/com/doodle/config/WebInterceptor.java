@@ -17,7 +17,7 @@ public class WebInterceptor extends HandlerInterceptorAdapter {
 	static List<String> whiteList = new ArrayList<>();
 
 	static {
-		whiteList.add("welcome");
+		whiteList.add("welcome1");
 	}
 
 	@Override
