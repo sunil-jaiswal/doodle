@@ -1,5 +1,5 @@
 #!/bin/bash
-cd $SOURCE__HOME
+cd $SOURCE_HOME
 mvn clean install
-cp $SOURCE__HOME/target/doodle.war $CATALINA_HOME/webapps
+cp $SOURCE_HOME/target/doodle.war $CATALINA_HOME/webapps
 $CATALINA_HOME/bin/startup.sh
